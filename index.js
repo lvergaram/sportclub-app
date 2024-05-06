@@ -19,17 +19,13 @@ app.set('views','./views')
 // ROUTER
 app.use('/sports',sportsRoute)
 
-app.get('/', (req,res)=>{
-    res.render('home')
-})
+app.get('/', (req,res)=>{res.render('home')})
+app.get('/edit', (req,res)=>{res.render('editSport')})
+app.get('/remove', (req,res)=>{res.render('deleteSport')})
 
-app.get('/edit', (req,res)=>{
-    res.render('editSport')
-})
 
-app.get('*', (req,res)=>{
-    res.render('404')
-})
+
+app.get('*', (req,res)=>{res.render('404')})
 
 
 

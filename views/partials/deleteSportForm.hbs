@@ -1,4 +1,4 @@
-<form id="editSportForm" >
+<form id="deleteSportForm" >
   
   <fieldset class="grid"> 
      <label>
@@ -24,7 +24,7 @@
         id="sportInputNombre"
         name="nombre"
         placeholder="nombre"
-        required
+        disabled
         autocomplete="given-name"
       />
     </label>
@@ -32,7 +32,7 @@
       Precio
       <input
         id="sportInputPrecio"
-        required
+        disabled
         type="number"
         name="precio"
         placeholder="$9.999"
@@ -42,8 +42,8 @@
   </fieldset>
 
   <input
-    class="bg-yellow"
+    class="bg-red"
     type="submit"
-    value="Registrar Cambios"
+    value="Eliminar Registro"
   />
 </form>
