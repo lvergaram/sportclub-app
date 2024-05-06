@@ -1,0 +1,38 @@
+:root{
+    --red:  hsl(5, 70%, 50%);
+    --redHover: hsl(5, 70%, 55%);
+    --yellow: hsl(55, 70%, 50%);
+    --yellowHover: hsl(55, 70%, 60%);
+
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.bg-red{
+    background-color: var(--red);
+    border-color: var(--red)
+}
+
+.bg-red:hover{
+    background-color: var(--redHover);
+    border-color: var(--redHover)
+}
+
+.bg-yellow{
+    background-color: var(--yellow);
+    border-color: var(--yellow) 
+}
+.bg-yellow:hover{
+    background-color: var(--yellowHover);
+    border-color: var(--yellowHover)
+}

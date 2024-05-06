@@ -1,0 +1,45 @@
+<form id="newSportForm" action="/sports" method="post">
+  
+  <fieldset class="grid"> 
+     <label>
+      ID
+      <input
+        id="sportInputId"
+        name="id"
+        placeholder="ID"
+      />
+      <input
+        id="searchSportBtn"
+        type="button"
+        value="buscar"
+    />
+    </label>
+  </fieldset>
+    
+  <fieldset>
+    <label>
+      Nombre
+      <input
+        id="sportInputNombre"
+        name="nombre"
+        placeholder="nombre"
+        autocomplete="given-name"
+      />
+    </label>
+    <label>
+      Precio
+      <input
+        id="sportInputPrecio"
+        type="number"
+        name="precio"
+        placeholder="$9.999"
+        autocomplete="transaction-amount"
+      />
+    </label>
+  </fieldset>
+
+  <input
+    type="submit"
+    value="Registrar Cambios"
+  />
+</form>

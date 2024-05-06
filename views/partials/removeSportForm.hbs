@@ -1,0 +1,26 @@
+<form id="newSportForm" action="/sports" method="post">
+  <fieldset>
+    <label>
+      Nombre
+      <input
+        name="nombre"
+        placeholder="nombre"
+        autocomplete="given-name"
+      />
+    </label>
+    <label>
+      Precio
+      <input
+        type="number"
+        name="precio"
+        placeholder="$9.999"
+        autocomplete="transaction-amount"
+      />
+    </label>
+  </fieldset>
+
+  <input
+    type="submit"
+    value="Registrar"
+  />
+</form>
